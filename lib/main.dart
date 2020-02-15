@@ -15,11 +15,8 @@ void main() {
           backgroundColor: Colors.yellow[600],
         ),
         body: Center(
-          child: RotatedBox(
-            quarterTurns: 3,
-            child: Image(
-              image: AssetImage('images/banana.png'),
-            ),
+          child: Image(
+            image: AssetImage('images/banana2.png'),
           ),
         ),
       ),
